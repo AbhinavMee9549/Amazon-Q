@@ -41,9 +41,9 @@ Linux / WSL
 sudo snap install astral-uv --classic
 
 Now create a file called mcp.json in ~/.aws/amazonq
-and add this ## For awslab mcp-server and aws-diagram-mcp-server
-
-'''{
+and add this   ## For awslab mcp-server and aws-diagram-mcp-server
+<pre>
+{
 
 	"mcpServers" : {
     
@@ -65,7 +65,10 @@ and add this ## For awslab mcp-server and aws-diagram-mcp-server
  	}
 }
 
-}'''
+}
+	</pre>
+
+
 
 Now run q again
 
