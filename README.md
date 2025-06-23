@@ -77,31 +77,6 @@ If you want to install simply use the commands
 }
 </pre>
 
-<div>
-    {
-
-	"mcpServers" : {
-    
- "awslabs.cdk-mcp-server": {
-        "command": "uvx",
-        "args": ["awslabs.cdk-mcp-server@latest"],
-        "env": {
-           "FASTMCP_LOG_LEVEL": "ERROR"
-        }
-   },
- "awslabs.aws-diagram-mcp-server": {
- 		"command": "uvx",
- 		"args": ["awslabs.aws-diagram-mcp-server"],
- 		"env": {
- 			"FASTMCP_LOG_LEVEL": "ERROR"
- 		},
- 		"autoApprove": [],
- 		"disabled": false
- 	}
-}
-
-}
-</div>
 
 
 
