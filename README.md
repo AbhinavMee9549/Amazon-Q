@@ -52,10 +52,9 @@ If you want to install simply use the commands
 <p> and add this   ## For awslab mcp-server and aws-diagram-mcp-server </p>
 <pre>
 {
-
-	"mcpServers" : {
+    "mcpServers" : {
     
- "awslabs.cdk-mcp-server": {
+"awslabs.cdk-mcp-server": {
         "command": "uvx",
         "args": ["awslabs.cdk-mcp-server@latest"],
         "env": {
@@ -74,7 +73,7 @@ If you want to install simply use the commands
 }
 
 }
-	</pre>
+</pre>
 
 
 
