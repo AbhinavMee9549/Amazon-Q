@@ -3,10 +3,10 @@ Architecture Diagrams with Amazon Q CLI & MCP
 INSTALLATION
 
 WSL (Windows Subsystem For Linux)
-Download installation zip file:
-curl --proto '=https' --tlsv1.2 -sSf "https://desktop-release.q.us-east-1.amazonaws.com/latest/q-x86_64-linux.zip" -o "q.zip"
+<p> Download installation zip file: </p>
+<p> curl --proto '=https' --tlsv1.2 -sSf "https://desktop-release.q.us-east-1.amazonaws.com/latest/q-x86_64-linux.zip" -o "q.zip"
 Unzip the installer:unzip q.zip
-Run the install program:./q/install.shBy default, the files are installed to ~/.local/bin.
+Run the install program:./q/install.shBy default, the files are installed to ~/.local/bin. </p>
 
 Linux (Ubuntu)
 Make sure your machine is updated and has Libfuse2 installed
