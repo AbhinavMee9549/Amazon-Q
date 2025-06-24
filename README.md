@@ -14,10 +14,10 @@ Run the install program:./q/install.shBy default, the files are installed to ~/.
 Make sure your machine is updated and has Libfuse2 installed
 <pre>
 sudo apt-get update
-sudo apt install libfuse2
+sudo apt install libfuse2 </pre>
 Install the deb file for Amazon Q
-curl --proto '=https' --tlsv1.2 -sSf https://desktop-release.q.us-east-1.amazonaws.com/latest/amazon-q.deb -o amazon-q.deb
-</pre>
+<pre> curl --proto '=https' --tlsv1.2 -sSf https://desktop-release.q.us-east-1.amazonaws.com/latest/amazon-q.deb -o amazon-q.deb </pre>
+
 
 Install Amazon Q debian file
 <pre>
