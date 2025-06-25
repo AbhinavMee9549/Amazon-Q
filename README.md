@@ -84,3 +84,29 @@ Now run q again
 
 
 ## Now write prompt according to the architecture you want to design and Amazon Q cli will create it for you.
+
+#PROMPTS:
+
+<p>First</p>
+<pre>Build an AWS diagram where the backend application uploads files to S3, triggering a Lambda function to process metadata and store it in DynamoDB. Include SNS for optional notifications and use IAM roles with least privilege.
+</pre>
+
+<p>Second</p>
+<pre>Design a CI/CD pipeline architecture where the backend application is deployed on EC2 via CodePipeline and CodeDeploy, while a separate data fetcher component is built and deployed to AWS Lambda. Add monitoring with CloudWatch and notifications via SNS.
+</pre>
+
+<p>Third</p>
+<pre>Create a secure AWS architecture where a backend application encrypts files using KMS and stores them in a private S3 bucket. A data fetcher hosted in a different VPC accesses these files securely using VPC endpoints and IAM roles. Add GuardDuty and Config for compliance monitoring.
+</pre>
+
+<p>Fourth</p>
+<pre>Design a simple AWS architecture where a backend service is hosted on an EC2 instance inside a private subnet, and a separate client component running on another EC2 instance retrieves data from it over HTTP. Use appropriate VPC, subnets, security groups, and IAM roles.
+</pre> 
+
+<p>Fifth</p>
+<pre>Build an architecture where a distributed backend service is deployed across multiple AZs behind an ALB. Remote agents (polling services) deployed in separate environments periodically fetch job details and submit processed data back. Use DynamoDB for job queues and S3 for data exchange.
+</pre>
+
+<p>Sixth</p>
+<pre>Generate a full-stack AWS architecture where the backend API is deployed via ECS Fargate, frontend is served through S3 + CloudFront, and a scheduled background function (Lambda) consumes the backend API and stores logs in CloudWatch.
+</pre>
