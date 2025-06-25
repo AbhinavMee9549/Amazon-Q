@@ -104,9 +104,6 @@ Now run q again
 </pre> 
 
 <p>Fifth</p>
-<pre>Build an architecture where a distributed backend service is deployed across multiple AZs behind an ALB. Remote agents (polling services) deployed in separate environments periodically fetch job details and submit processed data back. Use DynamoDB for job queues and S3 for data exchange.
-</pre>
-
-<p>Sixth</p>
 <pre>Generate a full-stack AWS architecture where the backend API is deployed via ECS Fargate, frontend is served through S3 + CloudFront, and a scheduled background function (Lambda) consumes the backend API and stores logs in CloudWatch.
 </pre>
+
