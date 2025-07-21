@@ -49,7 +49,7 @@ If you want to install simply use the commands
 <pre> sudo snap install astral-uv --classic </pre>
 
 <p> Now create a file called mcp.json in ~/.aws/amazonq </p>
-<p> and add this   ## For awslab mcp-server and aws-diagram-mcp-server </p>
+<p> and add this   ## For awslab mcp-server and aws-diagram-mcp-server (as mcp.json)--json file </p>
 <pre>
 {
     "mcpServers" : {
